@@ -1,0 +1,23 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosrodriguesjunior/CallbackToAsyncAwait.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosrodriguesjunior/CallbackToAsyncAwait/issues"
+  },
+  "homepage": "https://github.com/carlosrodriguesjunior/CallbackToAsyncAwait#readme",
+  "dependencies": {
+    "express": "^4.15.3",
+    "mongodb": "^2.2.29"
+  }
+}
