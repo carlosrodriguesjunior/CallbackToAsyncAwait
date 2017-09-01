@@ -21,10 +21,13 @@ app.listen(3000, () => {
     console.log('Example app listening on port 3000!')
 })
 
+let testAsynFn = async ()=>{
+    await Promise.resolve('valor')
+}
 
 let connectMongoDB = () => {
     return new Promise((resolve, reject) => {
-        MongoClient.connect('mongodb://localhost:27017/netcoders', (err, db) => {
+        MongoClient.connect('mongodb://localhost:27017/devXperience', (err, db) => {
             if (err) reject(err)
             resolve(db)
 

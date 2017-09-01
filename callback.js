@@ -3,7 +3,7 @@ const app = express()
 const MongoClient = require('mongodb').MongoClient
 
 app.get('/', function (req, res) {
-    MongoClient.connect('mongodb://localhost:27017/netcoders', function (err, db) {
+    MongoClient.connect('mongodb://localhost:27017/devXperience', function (err, db) {
         if (err) throw err
         db.collection('alunos').find().toArray(function (err, result) {
             if (err) throw err

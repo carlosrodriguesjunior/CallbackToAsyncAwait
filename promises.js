@@ -22,7 +22,7 @@ app.listen(3000, function () {
 
 function connectMongoDB() {
     return new Promise(function (resolve, reject) {
-        MongoClient.connect('mongodb://localhost:27017/netcoders', function (err, db) {
+        MongoClient.connect('mongodb://localhost:27017/devXperience', function (err, db) {
             if (err) reject(err)
             resolve(db)
 
